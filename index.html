@@ -26,8 +26,119 @@
           }
         }
       </script>
+      <style>
+        h1, h2, h3{
+          font-family: ADLaM Display;
+        }
+        p, h4, a, input{
+          font-family: sura;
+        }
+      </style>
 </head>
 <body>
+    <header class="mb-32" >
+      <section class="bg-pink-50 mb-20">
+          <!-- nav bar -->
+          <div class=" w-10/12 mx-auto  grid  lg:grid-cols-3 gap-8 items-center py-9 relative">
+            <!-- nav bar logo -->
+             <div class="flex gap-3 items-center">
+                <img src="./c1-assets/logo-header.png" alt="A logo image">
+                <h4 class="text-3xl text-neutral-900 font-normal">Browse<span class="text-yellow-300">4</span>Pets</h4>
+             </div>
+             <a href="#" class="visible lg:hidden absolute right-0 top-12"><i class="fa-solid fa-bars"></i></a>
+
+            <!-- nav bar menu -->
+             <div class="invisible lg:visible">
+                <ul class="flex items-center gap-8">
+                    <li><a href="#" class="text-xl text-neutral-900">Find a pet</a></li>
+                    <li><a href="#" class="text-xl text-neutral-900">Breeds</a></li>
+                    <li><a href="#" class="text-xl text-neutral-900">Contact us</a></li>
+                </ul>    
+             </div>
+
+             <!-- nav bar login -->
+              <div class="invisible lg:visible">
+                <div class="flex gap-3 items-center ">
+                    <a href="#"><i class="fa-regular fa-bell"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <input type="submit" value="Login" class="px-7 py-2 rounded-lg border border-gray-500">
+                    <input type="submit" value="Register" class="px-7 py-2 rounded-lg bg-yellow-400">
+                </div>
+            </div>
+           
+         </div>
+
+      </section>
+
+      <!-- hero aria -->
+       <section class="w-10/12 mx-auto flex flex-col-reverse gap-8 lg:relative ">
+        
+        <div class="">
+          <img src="./c1-assets/cat-big.png" alt="A banner image">
+        </div>
+        <div class="lg:w-4/6 pt-6 lg:absolute top-0">
+            <h1 class="text-2xl lg:text-6xl text-stone-900 font-normal mb-4">Pamper Your Pet, Because They Deserve the Bes</h1>
+            <p class="mb-6 text-xl text-stone-900 font-normal">I found it still didn't allow me enough quality time with my dogs, so I decided to give up being a textile designer along with the long commute back and forth from Kyneton.</p>
+            <button class="px-7 py-2 rounded-lg bg-yellow-400 text-xl text-stone-900">Find a pet</button>
+        </div>
+      </section>
+    </header>
+
+    <main class="w-10/12 mx-auto">
+      <!-- category section -->
+      <section class="mb-32">
+        <h2 class="text-4xl text-stone-900 font-normal mb-12">Browse By Categories</h2>
+
+        <!-- category card -->
+         <div class="grid grid-cols-2 gap-6 lg:grid-cols-6">
+          <!-- card 1 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/dog-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Dog</h3>
+              <p class="text-base text-black font-normal">3 items</p>
+            </div>
+            
+          <!-- card 2 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/fish-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Fish</h3>
+              <p class="text-base text-black font-normal">3 items</p>
+            </div>
+          <!-- card 3 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/cat-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Cat</h3>
+              <p class="text-base text-black font-normal">3 items</p>
+            </div>
+          <!-- card 4 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/bird-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Birds</h3>
+              <p class="text-base text-black font-normal">3 items</p>
+            </div>
+          <!-- card 5 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/mouse-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Small pet</h3>
+              <p class="text-base text-black font-normal">3 items</p>
+            </div>
+          <!-- card 6 -->
+            <div class="bg-amber-400 px-12 py-9 text-center rounded-lg">
+              <img src="./c1-assets/rabbit-cartoon.png" alt="A card picture" class="mb-6 px-4 py-4 bg-white rounded-full mx-auto">
+              <h3 class="text-xl text-black font-normal mb-3">Rabit</h3>
+              <p class="text-base text-black font-normal">2 items</p>
+            </div>
+
+         </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
     
 </body>
 </html>
